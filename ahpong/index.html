@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="km">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+  
+</head>
+<body>
+    <div class="app-container">
+        <div class="header">
+            <h2>តោះចាក់អាប៉ោងលេង</h2>
+            <p class="warning">ចាក់ហើយដកដៃ</p>
+        </div>
+
+        <div class="game-area">
+            <div class="big-plate"></div>
+            <div class="dice-wrapper" id="dice-target">
+                <div class="back-stick"></div>
+                <div id="dice" class="dice">?</div>
+            </div>
+            <div id="cover" class="plate-cover">
+                <div class="cover-handle"></div>
+            </div>
+        </div>
+
+        <div class="button-group">
+            <button id="btn-spin" class="btn btn-spin" onclick="spin()">បង្វិល</button>
+            <button id="btn-open" class="btn btn-open" onclick="openPlate()" disabled>បើក</button>
+        </div>
+    </div>
+
+</body>
+</html>
+<script src="../script.js"></script>
